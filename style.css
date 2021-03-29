@@ -88,10 +88,10 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+.task {
   width: 318px;
 }
-p > button:hover {
+#main-page__top-Section > button:hover {
   color: #0fc57c;
 }
 
@@ -121,7 +121,7 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-li > button.del:hover {
+.main-page > button.del:hover {
   color: #cf2323;
 }
 button.del img {
